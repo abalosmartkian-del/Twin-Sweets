@@ -41,3 +41,26 @@ header {
     font-weight: 700;
     color: var(--tagline-gold);
 }
+
+/*nav*/
+
+nav {
+    margin-left: auto;
+    align-self: flex-end;
+    display: flex;
+    gap: 12px;
+}
+
+nav a {
+    padding: 8px 24px;
+    border-radius: 999px;
+    background: #E8C9B8;
+    color: #9C6355;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: var(--title-brown);
+    color: var(--header-bg);
+}
