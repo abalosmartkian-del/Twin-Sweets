@@ -13,3 +13,31 @@ body {
     margin: 0;
     background: var(--page-bg);
 }
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 16px 48px;
+    background: var(--header-bg);
+}
+
+.logo {
+    width: 220px;
+}
+
+.brand h1 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 96px;
+    font-weight: 700;
+    color: var(--title-brown);
+    line-height: 1.1;
+}
+
+.tagline {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--tagline-gold);
+}
