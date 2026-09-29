@@ -1,0 +1,15 @@
+:root {
+    --header-bg: #F4F4CC;
+    --page-bg: #C0AF92;
+    --title-brown: #9C6355;
+    --tagline-gold: #E7B655;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--page-bg);
+}
