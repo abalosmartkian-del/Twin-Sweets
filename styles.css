@@ -105,3 +105,9 @@ footer {
     font-weight: 700;
     background: var(--header-bg);
 }
+
+.highlight {
+    color: #F4E58F;
+    font-style: italic;
+    font-weight: bolder;
+}
