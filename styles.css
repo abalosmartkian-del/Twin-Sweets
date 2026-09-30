@@ -54,7 +54,7 @@ nav {
 nav a {
     padding: 8px 24px;
     border-radius: 999px;
-    background: #E8C9B8;
+    background: #DEC9A2;
     color: #9C6355;
     font-size: 20px;
     text-decoration: none;
@@ -63,4 +63,45 @@ nav a {
 nav a:hover {
     background: var(--title-brown);
     color: var(--header-bg);
+}
+
+main {
+    padding: 24px 48px;
+}
+
+main h2 {
+    margin: 0 0 12px;
+    font-size: 64px;
+    color: #3B2A20;
+}
+
+main p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #3B2A20;
+}
+
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.photos img {
+    width: 300px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 48px;
+}
+
+footer {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    background: var(--header-bg);
 }
