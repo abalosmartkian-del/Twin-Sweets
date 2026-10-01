@@ -112,3 +112,45 @@ footer {
     font-weight: bolder;
     font-size: 30px;
 }
+
+
+/*menu*/
+
+.menu-page {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.menu-sidebar {
+    width: 220px;
+    flex-shrink: 0;
+}
+
+.menu-sidebar h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: #3B2A20;
+}
+
+.menu-sidebar ul {
+    margin: 0 0 24px;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-sidebar li {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #3B2A20;
+}
+
+.menu-content {
+    flex: 1;
+}
+
+.menu-content h2 {
+    margin: 0 0 8px;
+    font-size: 32px;
+    color: #3B2A20;
+}
