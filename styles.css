@@ -156,5 +156,16 @@ footer {
 }
 
 .menu-category {
-    font-size: 25px;
+    margin: 24px 0 16px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #3B2A20;
+    font-size: 20px;
+    color: #3B2A20;
 }
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
