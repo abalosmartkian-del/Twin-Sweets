@@ -129,7 +129,7 @@ footer {
 
 .menu-sidebar h3 {
     margin: 0 0 8px;
-    font-size: 18px;
+    font-size: 30px;
     color: #3B2A20;
 }
 
@@ -141,7 +141,7 @@ footer {
 
 .menu-sidebar li {
     margin-bottom: 6px;
-    font-size: 14px;
+    font-size: 19px;
     color: #3B2A20;
 }
 
@@ -151,6 +151,10 @@ footer {
 
 .menu-content h2 {
     margin: 0 0 8px;
-    font-size: 32px;
+    font-size: 64px;
     color: #3B2A20;
+}
+
+.menu-category {
+    font-size: 25px;
 }
