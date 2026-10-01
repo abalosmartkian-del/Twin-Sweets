@@ -159,7 +159,7 @@ footer {
     margin: 24px 0 16px;
     padding-bottom: 6px;
     border-bottom: 1px solid #3B2A20;
-    font-size: 20px;
+    font-size: 27px;
     color: #3B2A20;
 }
 
@@ -167,5 +167,23 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.menu-item p {
+    margin: 0;
+    font-size: 23px;
+    font-weight: 700;
+    color: #3B2A20;
+}
+
+.menu-item img {
+    object-fit: cover;
+    border-radius: 80%;
 }
 
