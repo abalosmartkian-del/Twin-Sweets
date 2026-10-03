@@ -187,3 +187,38 @@ footer {
     border-radius: 80%;
 }
 
+
+/*cotacnt*/
+
+/* contact page */
+
+.contact-page {
+    text-align: center;
+}
+
+.contact-page h2 {
+    margin: 0 0 8px;
+    font-size: 48px;
+    color: #3B2A20;
+}
+
+.contact-page h3 {
+    margin: 20px 0 4px;
+    font-size: 18px;
+    color: #3B2A20;
+}
+
+.contact-page p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3B2A20;
+}
+
+.map {
+    width: 100%;
+    max-width: 600px;
+    height: 320px;
+    margin: 24px auto;
+    display: block;
+}
