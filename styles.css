@@ -222,3 +222,7 @@ footer {
     margin: 24px auto;
     display: block;
 }
+
+.contact-page a {
+    color: inherit;
+}
