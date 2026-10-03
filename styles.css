@@ -248,3 +248,9 @@ html {
     background: rgba(244, 244, 204, 0.5);
     border-radius: 24px;
 } 
+
+/*changing font style page-title*/
+.page-title {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+}
