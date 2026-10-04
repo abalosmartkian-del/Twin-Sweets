@@ -255,8 +255,13 @@ html {
     border-radius: 24px;
 } 
 
-/*changing font style page-title*/
+/*changing font style pagetitle*/
 .page-title {
     font-family: 'Caveat', cursive;
     font-weight: 700;
+}
+
+img,
+iframe {
+    max-width: 100%;
 }
