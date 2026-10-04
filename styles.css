@@ -265,3 +265,30 @@ img,
 iframe {
     max-width: 100%;
 }
+
+
+/*tablet view*/
+@media (max-width: 1024px) {
+    header {
+        flex-wrap: wrap;
+        gap: 16px;
+        padding: 16px 24px;
+    }
+    
+    .logo {
+        width: 120px;
+    }
+
+    .brand h1 {
+        font-size: 56px;
+    }
+
+    .tagline {
+        font-size: 32px;
+    }
+
+    nav a {
+        padding: 6px 18px;
+        font-size: 16px;
+    }
+}
