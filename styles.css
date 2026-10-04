@@ -441,4 +441,53 @@ iframe {
         font-weight: 700;
         color: #3B2A20;
     }
+
+    .menu-sidebar {
+        display: none;
+    }
+
+    .menu-content {
+        min-width: 0;
+    }
+
+    .menu-content h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .menu-category {
+        font-size: 18px;
+    }
+
+    .menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 8px;
+    }
+
+    .menu-item {
+        gap: 8px;
+    }
+
+    .menu-item img {
+        width: 64px;
+        height: 84px;
+    }
+
+    .menu-item p {
+        font-size: 13px;
+    }
+
+    .menu-grid .menu-item:last-child:nth-child(odd) {
+        grid-column: 1 / -1;
+        justify-self: center;
+    }
+
+    footer {
+        padding: 8px;
+        font-size: 9px;
+    }
+
+    footer p {
+        margin: 0;
+    }
 }
