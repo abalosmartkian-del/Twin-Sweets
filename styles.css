@@ -358,4 +358,13 @@ iframe {
     .menu-item p {
         font-size: 18px;
     }
+
+    .home-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-page .photos {
+        margin: auto 0;
+    }
 }
