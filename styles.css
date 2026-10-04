@@ -319,4 +319,43 @@ iframe {
         aspect-ratio: 5 / 6;
         border-radius: 32px;
     }
+
+    .menu-page {
+        gap: 20px;
+    }
+
+    .menu-sidebar {
+        width: 170px;
+    }
+
+    .menu-sidebar h3 {
+        font-size: 22px;
+    }
+
+    .menu-sidebar li {
+        font-size: 15px;
+    }
+
+    .menu-content h2 {
+        font-size: 48px;
+    }
+
+    .menu-category {
+        font-size: 22px;
+    }
+
+    .menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .menu-item img {
+        width: 90px;
+        height: 120px;
+        flex-shrink: 0;
+    }
+
+    .menu-item p {
+        font-size: 18px;
+    }
 }
