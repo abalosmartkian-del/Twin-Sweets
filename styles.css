@@ -94,6 +94,9 @@ main p {
     color: #3B2A20;
 }
 
+.see-menu {
+    display: none;
+}
 
 .photos {
     display: flex;
@@ -429,5 +432,13 @@ iframe {
         width: 62%;
         aspect-ratio: 3 / 4;
         border-radius: 36px;
+    }
+
+    .see-menu {
+        display: block;
+        align-self: center;
+        margin-bottom: 16px;
+        font-weight: 700;
+        color: #3B2A20;
     }
 }
