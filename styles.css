@@ -13,6 +13,9 @@ body {
     margin: 0;
     background: var(--page-bg);
     font-family: 'Nunito Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -64,6 +67,7 @@ nav a {
     color: #9C6355;
     font-size: 20px;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 nav a:hover {
@@ -73,6 +77,7 @@ nav a:hover {
 
 main {
     padding: 24px 48px;
+    flex: 1;
 }
 
 main h2 {
@@ -290,5 +295,28 @@ iframe {
     nav a {
         padding: 6px 18px;
         font-size: 16px;
+    }
+
+    main {
+        padding: 24px;
+    }
+
+    main h2 {
+        font-size:48px;
+    }
+
+    main p {
+        font-size: 18px;
+    }
+
+    .photos {
+        gap: 16px;
+    }
+
+    .photos img {
+        width: 30%;
+        height: auto;
+        aspect-ratio: 5 / 6;
+        border-radius: 32px;
     }
 }
